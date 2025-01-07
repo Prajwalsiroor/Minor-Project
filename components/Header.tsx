@@ -11,16 +11,6 @@ import { supabase } from '@/lib/supabase/products';
 
 const itemList = [
     "All",
-    "Fresh",
-    "Amazon miniTV",
-    "Sell",
-    "Gift Cards",
-    "Baby",
-    "Buy Again",
-    "Browsing History",
-    "Amazon Pay",
-    "Gift Ideas",
-    "Health, Household & Personal Care"
 ]
 
 const Header = () => {
@@ -48,8 +38,8 @@ const Header = () => {
             <div className='bg-[#131921] text-white py-1'>
                 <div className='flex items-center justify-between w-[90%] mx-auto'>
                     <Link href={'/'} className='w-[10%]'>
-                    <div > 
-                        <h3 className="text-2xl font-bold tracking-wide">Cart Corner</h3></div>
+                    <div className="text-1xl font-bold tracking-wide"> 
+                        <h1 className="text-1xl font-bold tracking-wide"><h1>Cart Corner</h1></h1></div>
                     </Link>
                     <div className='flex items-center w-[60%]'>
                         <input 
