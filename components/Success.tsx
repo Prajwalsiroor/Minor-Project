@@ -20,7 +20,7 @@ const Success = () => {
                                     <div className='flex'>
                                     <Image src={product.image} alt={product.title} width={100} height={100} />
                                     <div className='ml-5 font-bold'>
-                                        <h1>{product.title}</h1>
+                                        <h1>{`₹${product.title}`}</h1>
                                         <h1>{product.price}</h1>
                                     </div>
                                     </div>
