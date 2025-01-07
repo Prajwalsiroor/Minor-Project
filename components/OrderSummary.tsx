@@ -76,7 +76,7 @@ const OrderSummary = ({ totalPrice }: { totalPrice: number }) => {
           </div>
           <div className="flex justify-between text-2xl font-bold text-[#B12704] py-2 border-t border-b border-gray-300 my-1">
             <h1>Order Total:</h1>
-            <h1>{`₹${totalPrice}`}</h1>
+            <h1>{`₹${Math.round(totalPrice)}`}</h1>
           </div>
         </div>
 

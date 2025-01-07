@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import amazonLogo from "../public/amazon-logo-2.webp"
 import { BiCart } from "react-icons/bi";
 import { CgSearch } from "react-icons/cg";
 import Link from 'next/link';
@@ -49,7 +48,8 @@ const Header = () => {
             <div className='bg-[#131921] text-white py-1'>
                 <div className='flex items-center justify-between w-[90%] mx-auto'>
                     <Link href={'/'} className='w-[10%]'>
-                        <Image src={amazonLogo} alt={"logo"} width={150} height={150} />
+                    <div > 
+                        <h3 className="text-2xl font-bold tracking-wide">Cart Corner</h3></div>
                     </Link>
                     <div className='flex items-center w-[60%]'>
                         <input 

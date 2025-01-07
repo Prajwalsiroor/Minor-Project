@@ -12,11 +12,10 @@ const Checkout = () => {
     
     const cart = useAppSelector(getCart);
     let totalPrice = 0;
+    let totalp=0
     cart.forEach((item:any)=>{
         totalPrice += item.price * item.quantity
     });
-
-
     return (
         <div className='absolute top-0 w-full p-10  bg-white  text-black'>
             <div className=' flex w-[70%] mx-auto items-center border-b border-gray-400  pb-5 justify-between'>
