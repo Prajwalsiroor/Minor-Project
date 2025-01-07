@@ -10,9 +10,9 @@ const DeliveryAddress = () => {
                 <div className='flex justify-between'>
                     <h1 className='font-bold text-lg'>1. Delivery Address</h1>
                     <p className='text-sm'>Rohit Kumar <br />
-                        Cozy Apartment <br />
-                        Bhutany Colony <br />
-                        Banglore,Karnataka 585001<br />
+                        SDMCET College <br />
+                        Gandhinagar Colony <br />
+                        Dharwad,Karnataka 585001<br />
                         Add delivery instructions</p>
                 </div>
             </div>
@@ -28,7 +28,7 @@ const DeliveryAddress = () => {
                                     <Image src={product.image} alt={product.title} width={100} height={100} />
                                     <div className='ml-4'>
                                         <h1 className='font-bold'>{product.title}</h1>
-                                        <p className='text-2xl font-bold py-2 '>{`$${product.price}`}</p>
+                                        <p className='text-2xl font-bold py-2 '>{`₹${product.price}`}</p>
                                     </div>
                                 </div>
                             </div>

@@ -16,7 +16,7 @@ const ProductCard = ({ product }: { product: any }) => {
                 <h1 className='font-bold text-black'>{product.title}</h1>
                 <p>{`${product.description.substring(0, 50)}...`}</p>
                 <Ratings ratings={product.rating}/>
-                <p className='font-bold text-2xl text-black'>{`$${product.price}`}</p>
+                <p className='font-bold text-2xl text-black'>{`₹${product.price}`}</p>
             </div>
         </div>
     )

@@ -87,9 +87,9 @@ const ShoppingCart = ({ cart, totalPrice }: { cart: CartItem[]; totalPrice: numb
                     {/* Product Price */}
                     <div>
                         <h1 className="font-bold text-xl">
-                            {new Intl.NumberFormat("en-US", {
+                            {new Intl.NumberFormat("en-IN", {
                                 style: "currency",
-                                currency: "USD",
+                                currency: "INR",
                             }).format(product.price)}
                         </h1>
                         <p className="text-xs py-1  text-black">

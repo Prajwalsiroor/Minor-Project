@@ -32,7 +32,7 @@ const Checkout = () => {
             </div>
             <div className='flex justify-between w-[70%] mx-auto'>
                 <DeliveryAddress />
-                <OrderSummary totalPrice={totalPrice} />
+                <OrderSummary totalPrice={totalPrice}/>
             </div>
         </div>
     )

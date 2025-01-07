@@ -17,7 +17,7 @@ const AddToCardContainer = ({ product }: { product: any }) => {
             <div className='p-4' text-black>
                 <h1><span className='text-[#147C8F]'>FREE delivery</span> Thursday, 21 March. <span className='text-[#147C8F]'>Details</span></h1>
                 <h1 className='mt-4'>Or fastest delivery Tomorrow, 20 March. Order within 15 hrs 53 mins. Details</h1>
-                <p className='text-[#147C8F] my-2'>Deliver to Surendra - Jalandhar 144411‌</p>
+                <p className='text-[#147C8F] my-2'>Deliver to Rohit-Kumar 585001</p>
 
                 <button onClick={() => {
                     dispatch(addToCart(product));
