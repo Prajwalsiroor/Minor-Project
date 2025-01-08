@@ -3,7 +3,7 @@ import ProductCard from './ProductCard'
 
 const SearchResult = ({ filterData }: { filterData: any }) => {
     return (
-        <div className='w-[80%] mx-auto'>
+        <div className='w-[80%] mx-auto  text-black'>
             <div className='mt-10'>
                 <div>
                     <h1 className='font-bold text-2xl text-black'>Results {filterData.length}</h1>

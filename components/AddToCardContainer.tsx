@@ -12,7 +12,6 @@ const AddToCardContainer = ({ product }: { product: any }) => {
         <div className='border border-gray-300 rounded-md h-fit text-sm'>
             <div className='p-4'>
                 <Image src={prime} width={40} height={40} alt={"prime"} />
-
             </div>
             <div className='p-4' text-black>
                 <h1><span className='text-[#147C8F]'>FREE delivery</span> Thursday, 21 March. <span className='text-[#147C8F]'>Details</span></h1>
@@ -24,7 +23,6 @@ const AddToCardContainer = ({ product }: { product: any }) => {
                 }} className='bg-[#FFD814] w-full rounded-full py-1'>Add to Cart</button>
                 <button className='bg-[#FFA41C] w-full rounded-full py-1 my-2'>Buy Now</button>
             </div>
-
         </div>
     )
 }
