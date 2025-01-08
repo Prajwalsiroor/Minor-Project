@@ -39,7 +39,7 @@ const Header = () => {
                 <div className='flex items-center justify-between w-[90%] mx-auto'>
                     <Link href={'/'} className='w-[10%]'>
                     <div className="text-1xl font-bold tracking-wide"> 
-                        <h1 className="text-1xl font-bold tracking-wide"><h1>Cart Corner</h1></h1></div>
+                        <h1 className="text-1xl font-bold tracking-wide"><h1>E-Commerce</h1></h1></div>
                     </Link>
                     <div className='flex items-center w-[60%]'>
                         <input 

@@ -8,8 +8,7 @@ import DeliveryAddress from './DeliveryAddress';
 import { useAppSelector } from '@/lib/supabase/hooks/redux';
 import { getCart } from '@/redux/cartSlice';
 
-const Checkout = () => {
-    
+const Checkout = () => {  
     const cart = useAppSelector(getCart);
     let totalPrice = 0;
     let totalp=0

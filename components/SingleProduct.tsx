@@ -34,7 +34,7 @@ const SingleProduct = ({ products }: { products: Product[] }) => {
               <h1 className="font-bold text-lg text-black">{product.title}</h1>
               <p>{product.description}</p>
               <Ratings ratings={product.rating} />
-              <h1 className="font-bold">{`$${product.price}`}</h1>
+              <h1 className="font-bold">{`₹${product.price}`}</h1>
               {product.about && (
                 <div>
                   <h1 className="font-bold text-sm text-black">About this item&apos;s details</h1>

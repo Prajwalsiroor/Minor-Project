@@ -6,7 +6,7 @@ const SearchResult = ({ filterData }: { filterData: any }) => {
         <div className='w-[80%] mx-auto'>
             <div className='mt-10'>
                 <div>
-                    <h1 className='font-bold text-2xl'>Results {filterData.length}</h1>
+                    <h1 className='font-bold text-2xl text-black'>Results {filterData.length}</h1>
                     <p>Price and other details may vary based on product size and colour.</p>
                 </div>
                 <div className='grid grid-cols-4 gap-2'>

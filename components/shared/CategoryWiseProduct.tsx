@@ -9,7 +9,7 @@ const CategoryWiseProduct = ({ product }: { product: any }) => {
     const dispatch = useAppDispatch();
     const router = useRouter();
     return (
-        <div className='border border-gray-300 p-2 bg-white text-black'>
+        <div className='border border-gray-300 p-2 bg-white text-black font-bold text-lg'>
             <h1 className='font-bold'>{product.category}</h1>
             <div className='mt-2 h-[250px] overflow-hidden flex items-center justify-center'>
                 <Image
@@ -31,4 +31,5 @@ const CategoryWiseProduct = ({ product }: { product: any }) => {
         </div>
     )
 }
-export default CategoryWiseProduct
+
+export default CategoryWiseProduct;
